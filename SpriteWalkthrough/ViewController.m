@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "HelloScene.h"
+#import <SpriteKit/SpriteKit.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet SKView *sceneView;
 
 @end
 
@@ -17,7 +20,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.sceneView.showsDrawCount = YES;
+    self.sceneView.showsNodeCount = YES;
+    self.sceneView.showsFPS = YES;
+
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    HelloScene *hello = [[HelloScene alloc] initWithSize:CGSizeMake(768, 1024)];
+    [self.sceneView presentScene: hello];
 }
 
 - (void)didReceiveMemoryWarning

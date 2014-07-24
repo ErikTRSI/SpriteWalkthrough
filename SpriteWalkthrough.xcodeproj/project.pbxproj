@@ -21,6 +21,8 @@
 		792682A1197F4B2F00C2C035 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79268283197F4B2E00C2C035 /* UIKit.framework */; };
 		792682A9197F4B2F00C2C035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792682A7197F4B2F00C2C035 /* InfoPlist.strings */; };
 		792682AB197F4B2F00C2C035 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792682AA197F4B2F00C2C035 /* SpriteWalkthroughTests.m */; };
+		792682B5197F4BBB00C2C035 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792682B4197F4BBB00C2C035 /* SpriteKit.framework */; };
+		792682B8197F4CCB00C2C035 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 792682B7197F4CCB00C2C035 /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		792682A6197F4B2F00C2C035 /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
 		792682A8197F4B2F00C2C035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		792682AA197F4B2F00C2C035 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		792682B4197F4BBB00C2C035 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		792682B6197F4CCB00C2C035 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		792682B7197F4CCB00C2C035 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792682B5197F4BBB00C2C035 /* SpriteKit.framework in Frameworks */,
 				79268282197F4B2E00C2C035 /* CoreGraphics.framework in Frameworks */,
 				79268284197F4B2E00C2C035 /* UIKit.framework in Frameworks */,
 				79268280197F4B2E00C2C035 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		7926827E197F4B2E00C2C035 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				792682B4197F4BBB00C2C035 /* SpriteKit.framework */,
 				7926827F197F4B2E00C2C035 /* Foundation.framework */,
 				79268281197F4B2E00C2C035 /* CoreGraphics.framework */,
 				79268283197F4B2E00C2C035 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				79268291197F4B2E00C2C035 /* Main.storyboard */,
 				79268294197F4B2F00C2C035 /* ViewController.h */,
 				79268295197F4B2F00C2C035 /* ViewController.m */,
+				792682B6197F4CCB00C2C035 /* HelloScene.h */,
+				792682B7197F4CCB00C2C035 /* HelloScene.m */,
 				79268297197F4B2F00C2C035 /* Images.xcassets */,
 				79268286197F4B2E00C2C035 /* Supporting Files */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79268296197F4B2F00C2C035 /* ViewController.m in Sources */,
+				792682B8197F4CCB00C2C035 /* HelloScene.m in Sources */,
 				79268290197F4B2E00C2C035 /* AppDelegate.m in Sources */,
 				7926828C197F4B2E00C2C035 /* main.m in Sources */,
 			);
